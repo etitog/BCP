@@ -1,0 +1,11 @@
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\bin\Debug\net6.0\MetaUI.Model.deps.json
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\bin\Debug\net6.0\MetaUI.Model.dll
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\bin\Debug\net6.0\MetaUI.Model.pdb
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\obj\Debug\net6.0\MetaUI.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\obj\Debug\net6.0\MetaUI.Model.AssemblyInfoInputs.cache
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\obj\Debug\net6.0\MetaUI.Model.AssemblyInfo.cs
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\obj\Debug\net6.0\MetaUI.Model.csproj.CoreCompileInputs.cache
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\obj\Debug\net6.0\MetaUI.Model.dll
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\obj\Debug\net6.0\refint\MetaUI.Model.dll
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\obj\Debug\net6.0\MetaUI.Model.pdb
+D:\Elva\BCP\Ventas\Metas\MetaUI.Model\obj\Debug\net6.0\ref\MetaUI.Model.dll

@@ -1,0 +1,102 @@
+﻿@page "/counter"
+@using MetaUI.Model
+@using Interfaces
+@using Servicios
+@inject IClienteService clienteService
+
+
+
+<PageTitle>Ventas</PageTitle>
+
+<h1>Ventas</h1>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-script-type" content="text/javascript">
+
+
+<EditForm Model="@tipo">
+    <div style="margin:0px; padding: 25px;">
+        <div class="panel-group">
+            <div class="panel panel-primary" style="margin:0px; padding: 25px;border: 2px solid #ccc;">
+            <div class="panel-heading">Datos Cliente</div>
+                <div class="panel-body">
+                <tr>
+                <td role="gridcell" class="ui-panelgrid-cell">
+                    <label id="cmb_Periodo_label" class="textBold">Tipo Doc. Identidad: </label>
+                    <select name="ad" onchange="crearlink(this.form)">
+                        <option selected>Seleccionar</option>
+                        <option value="1.htm">DNI</option>
+                        <option value="2.htm">RUC</option>
+                        <option value="3.htm">PASAPORTE</option>
+                    </select>
+                </td>
+                 <td></td /><td /><td /><td /><td />
+                 <td role="gridcell" class="ui-panelgrid-cell">
+                    <label id="cmb_Periodo_label" class="textBold">Num. Doc. Identidad: </label>
+                    <input type="text" name="txtNumDoc" placeholder="Número de documento de identidad del cliente" />
+                </td>
+                 </tr>
+                <tr></tr>
+                <tr>
+                <td role="gridcell" class="ui-panelgrid-cell">
+                    <label id="cmb_Periodo_label" class="textBold">Nombres: </label>
+                    <input type="text" name="txtNumDoc" placeholder="Nombres del cliente" />
+                </td>
+                <td></td><td /><td /><td /><td /><td /><td /><td /><td />
+                <td role="gridcell" class="ui-panelgrid-cell">
+                    <label id="cmb_Periodo_label" class="textBold">Apellidos: </label>
+                    <input type="text" name="txtNumDoc" placeholder="Apellidos del cliente" />
+                </td>
+                 </tr>
+                  <tr></tr>
+                <tr>
+                    <td role="gridcell" class="ui-panelgrid-cell">
+                        <label id="cmb_Periodo_label" class="textBold">Celular: </label>
+                        <input type="text" name="txtNumDoc" placeholder="Apellidos del cliente" />
+                    </td>
+                </tr>
+    
+            </div>
+         </div>
+    </div>
+   </div>
+            
+</EditForm>
+<EditForm Model="@venta">
+    <table class="table">
+        <tr>
+            <td role="gridcell" class="ui-panelgrid-cell">
+                <label id="cmb_Periodo_label" class="textBold">Periodo: </label>
+            
+            <select name="ad" onchange="crearlink(this.form)">
+                <option selected> ---</option>
+                <option value="1.htm">202308</option>
+                <option value="2.htm">202307</option>
+                <option value="3.htm">202306</option>
+             </select>
+            </td>
+        </tr>
+        <tr>
+            <div>    
+                    <input type="button" class="button1" value="Guardar" onclick="Save"/>
+            </div>
+        </tr>   
+    </table>
+</EditForm>
+
+
+@code {
+    String texto = "";
+    Venta venta = new Venta();
+    TipoDocumento tipo = new TipoDocumento();
+    Cliente cliente = new Cliente();
+
+    protected async Task Save()
+    {
+
+        await clienteService.SaveCliente(cliente);
+    }
+
+
+
+}

@@ -1,0 +1,17 @@
+D:\Elva\BCP\Ventas\Metas\Metas.Data\bin\Debug\net6.0\Metas.Data.deps.json
+D:\Elva\BCP\Ventas\Metas\Metas.Data\bin\Debug\net6.0\Metas.Data.runtimeconfig.json
+D:\Elva\BCP\Ventas\Metas\Metas.Data\bin\Debug\net6.0\Metas.Data.dll
+D:\Elva\BCP\Ventas\Metas\Metas.Data\bin\Debug\net6.0\Metas.Data.pdb
+D:\Elva\BCP\Ventas\Metas\Metas.Data\bin\Debug\net6.0\MetaUI.Model.dll
+D:\Elva\BCP\Ventas\Metas\Metas.Data\bin\Debug\net6.0\MetaUI.Model.pdb
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.csproj.AssemblyReference.cache
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.AssemblyInfoInputs.cache
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.AssemblyInfo.cs
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.csproj.CoreCompileInputs.cache
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.csproj.CopyComplete
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.dll
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\refint\Metas.Data.dll
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.pdb
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\Metas.Data.genruntimeconfig.cache
+D:\Elva\BCP\Ventas\Metas\Metas.Data\obj\Debug\net6.0\ref\Metas.Data.dll
